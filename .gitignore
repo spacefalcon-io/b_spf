@@ -4,11 +4,12 @@
 **/*.rs.bk
 node_modules
 keypair.json
-target/bpfel-unknown-unknown
-target/idl
-target/release
-target/types
-target/.rustc_info.json
-target/debug
+# target/bpfel-unknown-unknown
+# target/idl
+# target/release
+# target/types
+# target/.rustc_info.json
+# target/debug
+target
 jeet.json
 deploy_buffer.json

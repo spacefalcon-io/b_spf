@@ -12,8 +12,8 @@ url = "https://anchor.projectserum.com"
 
 [provider]
 # cluster = "mainnet"
-# cluster = "devnet"
-cluster = "localnet"
+cluster = "devnet"
+# cluster = "localnet"
 # wallet = "./jeet.json"
 wallet = "/home/peter/.config/solana/id.json"
 

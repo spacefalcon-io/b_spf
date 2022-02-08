@@ -11,8 +11,12 @@ reward_pool = "7XDST8WpuVzZpYqaoVsw5pYJ4NEqvFxkyegx4nK34FMP"
 url = "https://anchor.projectserum.com"
 
 [provider]
-cluster = "mainnet"
-wallet = "./jeet.json"
+# cluster = "mainnet"
+# cluster = "devnet"
+cluster = "localnet"
+# wallet = "./jeet.json"
+wallet = "/home/peter/.config/solana/id.json"
+
 
 [scripts]
 test = "mocha -t 1000000 tests/"

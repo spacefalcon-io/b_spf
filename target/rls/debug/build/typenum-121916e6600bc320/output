@@ -1,0 +1,2 @@
+cargo:rustc-env=TYPENUM_BUILD_CONSTS=/home/peter/Desktop/SpaceFalcon/b_spf/target/rls/debug/build/typenum-121916e6600bc320/out/consts.rs
+cargo:rustc-env=TYPENUM_BUILD_OP=/home/peter/Desktop/SpaceFalcon/b_spf/target/rls/debug/build/typenum-121916e6600bc320/out/op.rs

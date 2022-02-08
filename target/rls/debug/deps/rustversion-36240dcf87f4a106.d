@@ -1,0 +1,19 @@
+/home/peter/Desktop/SpaceFalcon/b_spf/target/rls/debug/deps/librustversion-36240dcf87f4a106.so: /home/peter/.cargo/registry/src/github.com-1ecc6299db9ec823/rustversion-1.0.5/src/lib.rs /home/peter/.cargo/registry/src/github.com-1ecc6299db9ec823/rustversion-1.0.5/src/attr.rs /home/peter/.cargo/registry/src/github.com-1ecc6299db9ec823/rustversion-1.0.5/src/bound.rs /home/peter/.cargo/registry/src/github.com-1ecc6299db9ec823/rustversion-1.0.5/src/constfn.rs /home/peter/.cargo/registry/src/github.com-1ecc6299db9ec823/rustversion-1.0.5/src/date.rs /home/peter/.cargo/registry/src/github.com-1ecc6299db9ec823/rustversion-1.0.5/src/error.rs /home/peter/.cargo/registry/src/github.com-1ecc6299db9ec823/rustversion-1.0.5/src/expr.rs /home/peter/.cargo/registry/src/github.com-1ecc6299db9ec823/rustversion-1.0.5/src/iter.rs /home/peter/.cargo/registry/src/github.com-1ecc6299db9ec823/rustversion-1.0.5/src/release.rs /home/peter/.cargo/registry/src/github.com-1ecc6299db9ec823/rustversion-1.0.5/src/time.rs /home/peter/.cargo/registry/src/github.com-1ecc6299db9ec823/rustversion-1.0.5/src/token.rs /home/peter/.cargo/registry/src/github.com-1ecc6299db9ec823/rustversion-1.0.5/src/version.rs /home/peter/Desktop/SpaceFalcon/b_spf/target/rls/debug/build/rustversion-651356234a01912f/out/version.rs
+
+/home/peter/Desktop/SpaceFalcon/b_spf/target/rls/debug/deps/rustversion-36240dcf87f4a106.d: /home/peter/.cargo/registry/src/github.com-1ecc6299db9ec823/rustversion-1.0.5/src/lib.rs /home/peter/.cargo/registry/src/github.com-1ecc6299db9ec823/rustversion-1.0.5/src/attr.rs /home/peter/.cargo/registry/src/github.com-1ecc6299db9ec823/rustversion-1.0.5/src/bound.rs /home/peter/.cargo/registry/src/github.com-1ecc6299db9ec823/rustversion-1.0.5/src/constfn.rs /home/peter/.cargo/registry/src/github.com-1ecc6299db9ec823/rustversion-1.0.5/src/date.rs /home/peter/.cargo/registry/src/github.com-1ecc6299db9ec823/rustversion-1.0.5/src/error.rs /home/peter/.cargo/registry/src/github.com-1ecc6299db9ec823/rustversion-1.0.5/src/expr.rs /home/peter/.cargo/registry/src/github.com-1ecc6299db9ec823/rustversion-1.0.5/src/iter.rs /home/peter/.cargo/registry/src/github.com-1ecc6299db9ec823/rustversion-1.0.5/src/release.rs /home/peter/.cargo/registry/src/github.com-1ecc6299db9ec823/rustversion-1.0.5/src/time.rs /home/peter/.cargo/registry/src/github.com-1ecc6299db9ec823/rustversion-1.0.5/src/token.rs /home/peter/.cargo/registry/src/github.com-1ecc6299db9ec823/rustversion-1.0.5/src/version.rs /home/peter/Desktop/SpaceFalcon/b_spf/target/rls/debug/build/rustversion-651356234a01912f/out/version.rs
+
+/home/peter/.cargo/registry/src/github.com-1ecc6299db9ec823/rustversion-1.0.5/src/lib.rs:
+/home/peter/.cargo/registry/src/github.com-1ecc6299db9ec823/rustversion-1.0.5/src/attr.rs:
+/home/peter/.cargo/registry/src/github.com-1ecc6299db9ec823/rustversion-1.0.5/src/bound.rs:
+/home/peter/.cargo/registry/src/github.com-1ecc6299db9ec823/rustversion-1.0.5/src/constfn.rs:
+/home/peter/.cargo/registry/src/github.com-1ecc6299db9ec823/rustversion-1.0.5/src/date.rs:
+/home/peter/.cargo/registry/src/github.com-1ecc6299db9ec823/rustversion-1.0.5/src/error.rs:
+/home/peter/.cargo/registry/src/github.com-1ecc6299db9ec823/rustversion-1.0.5/src/expr.rs:
+/home/peter/.cargo/registry/src/github.com-1ecc6299db9ec823/rustversion-1.0.5/src/iter.rs:
+/home/peter/.cargo/registry/src/github.com-1ecc6299db9ec823/rustversion-1.0.5/src/release.rs:
+/home/peter/.cargo/registry/src/github.com-1ecc6299db9ec823/rustversion-1.0.5/src/time.rs:
+/home/peter/.cargo/registry/src/github.com-1ecc6299db9ec823/rustversion-1.0.5/src/token.rs:
+/home/peter/.cargo/registry/src/github.com-1ecc6299db9ec823/rustversion-1.0.5/src/version.rs:
+/home/peter/Desktop/SpaceFalcon/b_spf/target/rls/debug/build/rustversion-651356234a01912f/out/version.rs:
+
+# env-dep:OUT_DIR=/home/peter/Desktop/SpaceFalcon/b_spf/target/rls/debug/build/rustversion-651356234a01912f/out

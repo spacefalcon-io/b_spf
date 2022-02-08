@@ -5,7 +5,7 @@ use std::convert::Into;
 use std::convert::TryInto;
 use std::convert::TryFrom;
 
-declare_id!("7XDST8WpuVzZpYqaoVsw5pYJ4NEqvFxkyegx4nK34FMP");
+declare_id!("9faLcGLhoWWKmkiGUysP8CuZbbycgyuSqfrempj4WHAF");
 
 pub const PRECISION: u128 = u64::MAX as u128;
 pub const MIN_DURATION: u64 = 86400;

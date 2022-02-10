@@ -65,6 +65,13 @@ const createPool = async(lockPeriod, amount) => {
   })
 }
 
-const lockPeriod = new anchor.BN(3600 * 24 * 60);
+// No lock
+const lockPeriod = new anchor.BN(0);
+// 2 months lock
+// const lockPeriod = new anchor.BN(60 * 60 * 24 * 30 * 2);
+//4 months lock
+// const lockPeriod = new anchor.BN(60 * 60 * 24 * 30 * 4);
+// 6 months lock
+// const lockPeriod = new anchor.BN(60 * 60 * 24 * 30 * 6);
 
 createPool(lockPeriod);

@@ -48,12 +48,7 @@ anchor deploy
 anchor test
 ```
 
-# Testnet Development and create pool 
-
-### Create Keypair
-```
-solana-keygen new --outfile ~/my-solana-wallet/my-keypair.json # Remember this key
-```
+# Testnet Development and create pool
 
 ### Set config to testnet
 ```
@@ -72,7 +67,9 @@ rm -r -f target
 
 Change `.env` file to `testnet`  
 Change cluster provider in `Anchor.toml` to `testnet`  
-Create `jeet.json` file copy `~/my-solana-wallet/my-keypair.json` to `jeet.json`
+```
+solana-keygen new --outfile ./jeet.json
+```
 
 ### Run:
 

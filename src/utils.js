@@ -15,9 +15,9 @@ const getEndpoints = (cluster) => {
   } else if (cluster == "devnet") {
     return "https://api.devnet.solana.com"
   } else if (cluster == "testnet") {
-    return "https://api.devnet.solana.com"
+    return "https://api.testnet.solana.com"
   } else if (cluster == "mainnet") {
-    return "https://dawn-red-log.solana-mainnet.quiknode.pro/ff88020a7deb8e7d855ad7c5125f489ef1e9db71/";
+    return "https://withered-falling-mountain.solana-mainnet.quiknode.pro/653dd9e05c615080b39df87aae06f45f1f46c1ec/";
   } else {
     throw Error("unsupported cluster");
   }

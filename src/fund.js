@@ -31,6 +31,8 @@ const fund = async(lockPeriod, amount) => {
 }
 
 const lockPeriod = new anchor.BN(5184000);
+
+// FCON reward = this amount / 4
 const amount = new anchor.BN('10000');
 
 fund(lockPeriod, amount);

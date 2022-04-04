@@ -128,7 +128,7 @@ pub mod reward_pool {
         Ok(())
     }
 
-    pub fn create_user(ctx: Context<CreateUser>, nonce: u8) -> Result<()> {
+    pub fn create_user(ctx: Context<CreateUser>) -> Result<()> {
         let user = &mut ctx.accounts.user;
         user.pool = *ctx.accounts.pool.to_account_info().key;
         user.owner = *ctx.accounts.owner.key;
@@ -136,7 +136,7 @@ pub mod reward_pool {
         user.reward_per_token_pending = 0;
         user.balance_staked = 0;
         user.maturity_time = 0;
-        user.nonce = nonce;
+        user.nonce = *ctx.bumps.get("user").unwrap();
 
         let pool = &mut ctx.accounts.pool;
         pool.user_stake_count = pool.user_stake_count.checked_add(1).unwrap();
@@ -252,7 +252,7 @@ pub mod reward_pool {
     }
 
     pub fn authorize_funder(ctx: Context<FunderChange>, funder_to_add: Pubkey) -> Result<()> {
-        if funder_to_add == ctx.accounts.pool.authority.key() {
+        if funder_to_add == ctx.accounts.pool.authority {
             return Err(ErrorCode::FunderAlreadyAuthorized.into());
         }
         let funders = &mut ctx.accounts.pool.funders;
@@ -269,7 +269,7 @@ pub mod reward_pool {
     }
 
     pub fn deauthorize_funder(ctx: Context<FunderChange>, funder_to_remove: Pubkey) -> Result<()> {
-        if funder_to_remove == ctx.accounts.pool.authority.key() {
+        if funder_to_remove == ctx.accounts.pool.authority {
             return Err(ErrorCode::CannotDeauthorizePoolAuthority.into());
         }
         let funders = &mut ctx.accounts.pool.funders;
@@ -530,12 +530,13 @@ pub struct CreateUser<'info> {
     pool: Box<Account<'info, Pool>>,
     // Member.
     #[account(
-        zero,
+        init,
+        payer=owner,
         seeds = [
             owner.key.as_ref(), 
             pool.to_account_info().key.as_ref()
         ],
-        bump = nonce,
+        bump
     )]
     user: Box<Account<'info, User>>,
     #[account(mut)]
@@ -819,7 +820,7 @@ pub struct User {
     pub nonce: u8,
 }
 
-#[error]
+#[error_code]
 pub enum ErrorCode {
     #[msg("Insufficient funds to unstake.")]
     InsufficientFundUnstake,
